@@ -1,0 +1,29 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Sensitive Environment Variables & Credentials
+.env
+*.env
+credentials.json
+token.json
+client_secret*.json
+
+# SQLite Databases & Snapshots
+*.db
+*.db-journal
+*.bak
+sage_undo.bak
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.log

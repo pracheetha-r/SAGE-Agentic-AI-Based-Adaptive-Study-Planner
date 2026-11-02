@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & API Keys (DO NOT COMMIT SECRETS)
+.env
+credentials.json
+token.json
+
+# Local Databases & Backups
+*.db
+*.bak
+sage_undo.bak
+
+# Pytest & IDE Cache
+.pytest_cache/
+.vscode/
+.idea/
+*.log
